@@ -578,6 +578,7 @@ export class ConfigService {
           keychainId: uuidV4(),
         },
       },
+      console.log("instanceid:----------",uuidV4());
       {
         packageName: "@hyperledger/cactus-plugin-consortium-manual",
         type: PluginImportType.Local,
